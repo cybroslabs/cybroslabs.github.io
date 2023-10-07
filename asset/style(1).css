@@ -446,13 +446,13 @@ a:hover {
   margin-top: 10rem;
   padding-bottom: 10px;
   background-size: 100% 100%;
-  background-image: url("../asset/images/top-background.jpg");
+  background-image: url("../asset/images/top-background3.jpg");
 }
 .site-hero .container {
   position: relative;
 }
 .site-hero .bg-img {
-  height: 500px;
+  height: 400px;
   background-size: cover;
   background-position: center center;
 }
@@ -499,6 +499,7 @@ a:hover {
   padding: 30px 30px 70px 30px;
   border: 2px solid #000;
   color: #000;
+  background-color: #ffffffa0;
 }
 @media (max-width: 991.98px) {
   .site-hero .cta-box {
@@ -631,4 +632,8 @@ a:hover {
 .heading h1 {
   font-size: 50px;
   color: #000;
+}
+
+.service {
+  text-decoration: none;
 }
