@@ -5,19 +5,12 @@ body {
   font-weight: 400;
   font-size: 1rem;
   color: #999999;
-  font-family: "Roboto Mono", monospace;
+  font-family: "Comfortaa", monospace;
 }
 
 ::selection {
   background: #000;
   color: #fff;
-}
-
-h1,
-h2,
-h3,
-h5 {
-  font-family: "Oswald", sans-serif;
 }
 
 a {
@@ -91,7 +84,6 @@ a:hover {
 }
 
 .site-section {
-  padding: 3em 0;
 }
 
 /* Navbar */
@@ -520,7 +512,7 @@ a:hover {
   left: 0;
   padding: 10px 20px;
   color: #fff;
-  background: #000;
+  background: #f93d4eff;
   text-decoration: none;
 }
 
@@ -552,20 +544,12 @@ a:hover {
   text-transform: uppercase;
 }
 
-.social li {
-  margin-bottom: 10px;
-}
-.social li a {
-  color: #000;
-}
-
 .copyright {
   color: #000;
 }
 
 .half {
-  margin-bottom: 50px;
-  min-height: 500px;
+  padding: 1em 0;
 }
 .half .img,
 .half .half-content {
@@ -588,7 +572,7 @@ a:hover {
   }
 }
 .half .half-content {
-  padding: 40px;
+  padding: 20px;
   height: auto;
 }
 .half .half-content h3 {
@@ -605,25 +589,15 @@ a:hover {
 .service .services-list li {
   color: #000;
 }
-.service img {
-  width: 60px !important;
-  margin-bottom: 30px;
+.service i {
+  font-size: 50px;
+  color: #f93d4eff;
 }
 .service h3 {
+  display: block;
   color: #000;
   font-size: 20px;
-  margin-bottom: 10px;
-}
-
-.testimonial img {
-  width: 80px;
-  border-radius: 50%;
-  margin-bottom: 30px;
-}
-
-.testimonial h3 {
-  font-size: 20px;
-  color: #000;
+  margin: 30px 0 10px 0;
 }
 
 .heading {
@@ -633,7 +607,7 @@ a:hover {
   font-size: 50px;
   color: #000;
 }
-
-.service {
-  text-decoration: none;
+.testimonial img {
+  display: inline;
+  max-height: 1em;
 }

@@ -3,4 +3,3 @@ const emailLinks = document.querySelectorAll('[data-contact-email]');
 emailLinks.forEach(link => {
     link.onmouseover = link.ontouchstart = () => link.setAttribute('href', contactEmail);
 });
-console.log('x');
