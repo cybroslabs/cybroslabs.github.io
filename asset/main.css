@@ -17,6 +17,7 @@ a {
   -webkit-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
   transition: 0.3s all ease;
+  color: #f93d4eff;
 }
 a:hover {
   text-decoration: none;
@@ -83,7 +84,8 @@ a:hover {
   box-shadow: none !important;
 }
 
-.site-section {
+.site-section + .site-section {
+  margin-top: 2em;
 }
 
 /* Navbar */
@@ -93,7 +95,7 @@ a:hover {
   z-index: 99;
 }
 .site-navbar .site-logo img {
-  height: 50px;
+  height: 30px;
 }
 .site-navbar .site-navigation .site-menu {
   margin-bottom: 0;
@@ -435,8 +437,8 @@ a:hover {
 /* Blocks */
 .site-hero {
   position: relative;
-  margin-top: 10rem;
-  padding-bottom: 10px;
+  margin-top: 1em;
+  margin-bottom: 2em;
   background-size: 100% 100%;
   background-image: url("../asset/images/top-background3.jpg");
 }
@@ -445,7 +447,10 @@ a:hover {
 }
 .site-hero .bg-img {
   height: 400px;
-  background-size: cover;
+}
+.site-hero {
+  background-repeat: no-repeat;
+  background-size: 100% 400px;
   background-position: center center;
 }
 .site-hero blockquote,
@@ -487,16 +492,18 @@ a:hover {
   position: absolute;
   right: 8%;
   max-width: 300px;
-  margin-top: -100px;
   padding: 30px 30px 70px 30px;
   border: 2px solid #000;
   color: #000;
   background-color: #ffffffa0;
 }
 @media (max-width: 991.98px) {
+  .site-hero .bg-img {
+    height: 300px;
+  }
   .site-hero .cta-box {
     margin-top: 0;
-    bottom: 0;
+    top: 0;
     right: 15px;
     left: 15px;
     max-width: 100%;
@@ -518,7 +525,7 @@ a:hover {
 
 .footer {
   font-size: 14px;
-  padding: 7rem 0;
+  padding: 2rem 0 0 0;
 }
 
 .widget h3 {
@@ -549,7 +556,7 @@ a:hover {
 }
 
 .half {
-  padding: 1em 0;
+  padding-top: 2em;
 }
 .half .img,
 .half .half-content {
@@ -572,7 +579,7 @@ a:hover {
   }
 }
 .half .half-content {
-  padding: 20px;
+  padding: 0 20px;
   height: auto;
 }
 .half .half-content h3 {
@@ -584,7 +591,7 @@ a:hover {
 .service {
   text-align: center;
   display: block;
-  padding: 20px;
+  padding-top: 1em;
 }
 .service .services-list li {
   color: #000;
@@ -607,7 +614,13 @@ a:hover {
   font-size: 50px;
   color: #000;
 }
+.testimonial {
+  padding-top: 2em;
+}
 .testimonial img {
   display: inline;
   max-height: 1em;
+}
+#work .img {
+  background-color: #F3F3F3;
 }

@@ -16,10 +16,10 @@
     <div class="site-wrap id="top">
       <div class="container">
         <div class="row no-gutters site-navbar align-items-center py-3">
-          <div class="col-6 col-lg-2 site-logo">
-            <a href="/index.html"><img src="asset/images/logo_colors_complete.svg" /></a>
+          <div class="col-lg-2 site-logo">
+            <a href="/index.html"><img src="asset/images/logo_colors.svg" /></a>
           </div>
-          <div class="col-6 col-lg-10 text-right menu text-end">
+          <div class="col-lg-10 text-right menu text-end">
             <nav class="site-navigation text-right text-md-right">
               <ul class="site-menu js-clone-nav d-none d-lg-block">
                 <li>
@@ -43,13 +43,13 @@
         <div class="site-hero">
           <div class="container">
             <div class="bg-img">
-              <blockquote>
+              <!-- blockquote>
                 <p>Hmm</p>
                 <div class="author">
                   <img src="/asset/person_1.jpg" alt="Person image" />
                   <cite>Steve Jobs</cite>
                 </div>
-              </blockquote>
+              </blockquote -->
               <div class="cta-box">
                 <h2>We're Ready To Help & Solve</h2>
                 <p>
@@ -57,7 +57,7 @@
                   Temporibus possimus, aut veniam. Ut minus, possimus quisquam
                   cupiditate magnam nisi pariatur..
                 </p>
-                <a href="#" class="contact-now" target="_blank" data-contact-email>Hire Us Now</a>
+                <a href="#" class="contact-now" target="_blank" data-contact-email>Napiště nám</a>
               </div>
             </div>
           </div>
@@ -65,17 +65,28 @@
         <div class="site-section" id="services">
           <div class="container">
             <div class="row">
-              <div class="col-6 col-md-6 col-lg-4 service">
+              <div class="col-md-3 service">
                 <i class="fa-solid fa-pen-fancy"></i>
                 <h3>Design & Architektura</h3>
                 <p>Navrhneme s vámi koncept řešení.</p>
                 <ul class="list-unstyled services-list">
-                  <li>Angular</li>
-                  <li>React</li>
+                  <li>Angular/React</li>
                   <li>ASP.NET</li>
+                  <li>PostgreSql</li>
                 </ul>
               </div>
-              <div class="col-6 col-md-6 col-lg-4 service">
+              <div class="col-md-3 service">
+                <i class="fa-solid fa-mobile-screen"></i>
+                <h3>Mobilní Aplikace</h3>
+                <p>
+                  Pomůžeme vám navrhnout a realizovat mobilní aplikaci běžící
+                  na různých moderních mobilních zařízeních.
+                </p>
+                <ul class="list-unstyled services-list">
+                  <li>.NET MAUI</li>
+                </ul>
+              </div>
+              <div class="col-md-3 service">
                 <i class="fa-solid fa-gears"></i>
                 <h3>DevOps</h3>
                 <p>Pomůžeme vám s implementací Kubernetes clusterů.</p>
@@ -84,15 +95,14 @@
                   <li>Automatizace</li>
                 </ul>
               </div>
-              <div class="col-6 col-md-6 col-lg-4 service">
+              <div class="col-md-3 service">
                 <i class="fa-solid fa-mobile-screen"></i>
-                <h3>Mobile Applications</h3>
+                <h3>Infrastruktura</h3>
                 <p>
-                  Pomůžeme vám navrhnout a realizovat mobilní aplikaci běžící
-                  na různých moderních mobilních zařízeních.
+                  Pomůžeme vám navrhnout infrastrukturu pro potřeby vašich aplikací.
                 </p>
                 <ul class="list-unstyled services-list">
-                  <li>.NET MAUI</li>
+                  <li>?</li>
                 </ul>
               </div>
             </div>
@@ -127,16 +137,12 @@
             </div>
           </div>
         </div>
-        <div class="site-section">
+        <div class="site-section" id="testimonials">
           <div class="container">
             <div class="row">
-              <div class="col-6 col-md-6 col-lg-6">
+              <div class="col-sm-4">
                 <div class="testimonial">
-                  <img
-                    src="/asset/person_1.jpg"
-                    alt="Image"
-                    class="img-fluid"
-                  />
+                  <!-- img src="/asset/photo1.jpg" alt="Image" class="img-fluid" / -->
                   <div class="mb-3">
                     <h3>Dalibor Janckulík</h3>
                     <span>Founder</span>
@@ -148,16 +154,26 @@
                   </blockquote>
                 </div>
               </div>
-              <div class="col-6 col-md-6 col-lg-6">
+              <div class="col-sm-4">
                 <div class="testimonial">
-                  <img
-                    src="/asset/person_2.jpg"
-                    alt="Image"
-                    class="img-fluid"
-                  />
+                  <!-- img src="/asset/photo2.jpg" alt="Image" class="img-fluid" / -->
                   <div class="mb-3">
                     <h3>Ladislav Čapka</h3>
                     <span>Co-Founder</span>
+                  </div>
+                  <blockquote>
+                    “Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Temporibus possimus, aut veniam. Ut minus, possimus quisquam
+                    cupiditate magnam nisi pariatur..”
+                  </blockquote>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="testimonial">
+                  <!-- img src="/asset/photo2.jpg" alt="Image" class="img-fluid" / -->
+                  <div class="mb-3">
+                    <h3>John Doe</h3>
+                    <span>Visionary</span>
                   </div>
                   <blockquote>
                     “Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -190,29 +206,27 @@
                   Smíchov Business Park a.s.<br />
                   Strakonická 3367<br />
                   150 00 Praha 5<br />
+                  budova A<br />
+                  <a href="#" data-contact-email data-contact-email-print></a><br />
                 </p>
               </div>
             </div>
             <div class="col-lg-3">
               <div class="widget mb-4">
-                <h3>Více</h3>
-                <ul class="list-unstyled links">
-                  <li>
-                    <a href="#services">Služby</a>
-                  </li>
-                  <li>
-                    <a href="#refs">Reference</a>
-                  </li>
-                  <li>
-                    <a href="#contact">Kontakt</a>
-                  </li>
-                </ul>
+                <h3>Fakturační adresa</h3>
+                <p>
+                  dDash s.r.o.<br />
+                  Devonská 1223/5<br />
+                  Hlubočepy<br />
+                  152 00 Praha<br />
+                  IČ: 06305741<br />                  
+                  DIČ: CZ06305741<br />                  
+                </p>
               </div>
-            </div>
-          </div>
+            </div>          </div>
           <div class="row footer-inner">            
-            <div class="col-12 mt-5 text-center copyright">
-              <p>Cybroslabs 2023</p>
+            <div class="col-12 text-center copyright">
+              <p>&copy; Cybroslabs 2023</p>
             </div>
           </div>
         </div>
