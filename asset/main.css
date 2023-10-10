@@ -264,8 +264,7 @@ a:hover {
   background-size: 100% 400px;
   background-position: center center;
 }
-.site-hero blockquote,
-.site-hero .page-heading {
+.site-hero blockquote {
   font-family: "Oswald", sans-serif;
   position: absolute;
   top: 0;
@@ -275,29 +274,22 @@ a:hover {
   line-height: 1;
   color: #000;
 }
-.site-hero blockquote:before,
-.site-hero .page-heading:before {
+.site-hero blockquote:before {
   content: "”";
   position: absolute;
   font-size: 4rem;
   left: -40px;
 }
-.site-hero blockquote > p,
-.site-hero .page-heading > p {
+.site-hero blockquote > p {
   font-size: 3rem;
 }
-.site-hero blockquote .author img,
-.site-hero .page-heading .author img {
+.site-hero blockquote .author img {
   width: 50px;
   border-radius: 50%;
   margin-right: 10px;
 }
-.site-hero blockquote .author cite,
-.site-hero .page-heading .author cite {
+.site-hero blockquote .author cite {
   font-style: normal;
-}
-.site-hero .page-heading:before {
-  display: none;
 }
 .site-hero .cta-box {
   position: relative;
@@ -342,21 +334,8 @@ a:hover {
   color: rgba(0, 0, 0, 0.5);
 }
 
-.widget .links li {
-  margin-bottom: 15px;
-}
-.widget .links li a {
-  color: #000;
-}
-.widget .links li a span {
-  color: #ccc;
-  font-size: 11px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
 .copyright {
-  color: #000;
+  color: rgba(212, 212, 212);
 }
 
 .half {
@@ -374,6 +353,7 @@ a:hover {
   }
 }
 .half .img {
+  background-color: #f9f9f9;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -413,19 +393,9 @@ a:hover {
   margin: 30px 0 10px 0;
 }
 
-.heading {
-  margin: 2rem 0;
-}
-.heading h1 {
-  font-size: 50px;
-  color: #000;
-}
 .testimonial img {
   display: inline;
   max-height: 1em;
-}
-#work .img {
-  background-color: #f9f9f9;
 }
 .container {
   max-width: 1100px;
