@@ -330,7 +330,7 @@ a:hover {
 
 .footer {
   font-size: 14px;
-  padding: 2rem 0 0 0;
+  padding: 1em 0 0 0;
 }
 
 .widget h3 {
@@ -362,7 +362,6 @@ a:hover {
 .half {
   padding-top: 2em;
   column-gap: 2em;
-  row-gap: 1em;
 }
 .half .img,
 .half .half-content {
@@ -378,10 +377,14 @@ a:hover {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  height: auto;
 }
 @media (max-width: 991.98px) {
   .half .img {
     height: 200px;
+  }
+  .half .half-content {
+    padding-top: 1em;
   }
 }
 .half .half-content {
@@ -416,9 +419,6 @@ a:hover {
 .heading h1 {
   font-size: 50px;
   color: #000;
-}
-.testimonial {
-  padding-top: 2em;
 }
 .testimonial img {
   display: inline;
