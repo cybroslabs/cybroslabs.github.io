@@ -311,8 +311,6 @@ a:hover {
   .site-hero .cta-box {
     margin-top: 0;
     top: 0;
-    right: 15px;
-    left: 15px;
     max-width: 100%;
   }
 }
@@ -363,6 +361,8 @@ a:hover {
 
 .half {
   padding-top: 2em;
+  column-gap: 2em;
+  row-gap: 1em;
 }
 .half .img,
 .half .half-content {
@@ -383,10 +383,6 @@ a:hover {
   .half .img {
     height: 200px;
   }
-}
-.half .half-content > p,
-.half .half-content > h3 {
-  padding: 0 20px;
 }
 .half .half-content {
   height: auto;
